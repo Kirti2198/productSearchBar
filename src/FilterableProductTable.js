@@ -25,7 +25,6 @@ const ProductRow = ({ product }) => {
 };
 
 const ProductTable = ({ products, filterText, inStockOnly }) => {
-  console.log("Product Data::::::", products);
   let rows = [];
   let lastCategory = null;
 
